@@ -1,5 +1,5 @@
 {
-  "name": "mako-cache",
+  "name": "makodb",
   "description": "A highly available distributed cache implemented using pouchdb.",
   "version": "0.1.0",
   "homepage": "https://github.com/MakoLabs/mako-cache",
@@ -12,10 +12,10 @@
     "url": "git://github.com/MakoLabs/mako-cache.git"
   },
   "bin": {
-    "mako-cache": "./bin/mako-cache"
+    "makodb": "./bin/makodb"
   },
   "scripts": {
-    "start": "node ./bin/mako-cache",
+    "start": "node ./bin/makodb",
     "test-couchdb": "./bin/test-couchdb"
   },
   "engines": {
